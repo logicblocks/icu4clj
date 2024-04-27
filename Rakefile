@@ -119,7 +119,7 @@ end
 
 RakeCircleCI.define_project_tasks(
   namespace: :circle_ci,
-  project_slug: 'github/logicblocks/spec.validate'
+  project_slug: 'github/logicblocks/icu4clj'
 ) do |t|
   circle_ci_config =
     YAML.load_file('config/secrets/circle_ci/config.yaml')
