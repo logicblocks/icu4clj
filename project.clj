@@ -1,4 +1,4 @@
-(defproject io.logicblocks/icu4clj "0.0.1-RC1"
+(defproject io.logicblocks/icu4clj "0.0.1-RC2"
   :description "A thin wrapper around ICU4J."
   :url "https://github.com/logicblocks/icu4clj"
 
