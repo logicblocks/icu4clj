@@ -18,21 +18,21 @@
             [lein-bikeshed "0.5.2"]
             [jonase/eastwood "1.4.0"]]
 
-  :dependencies [[com.ibm.icu/icu4j "72.1"]]
+  :dependencies [[com.ibm.icu/icu4j "75.1"]]
 
   :profiles
   {:shared
    ^{:pom-scope :test}
    {:dependencies
-    [[org.clojure/clojure "1.11.1"]
+    [[org.clojure/clojure "1.11.3"]
      [org.clojure/test.check "1.1.1"]
 
-     [com.github.flow-storm/clojure "1.11.2-4"]
-     [com.github.flow-storm/flow-storm-dbg "3.15.1"]
+     [com.github.flow-storm/clojure "1.11.3-1"]
+     [com.github.flow-storm/flow-storm-dbg "3.15.5"]
 
      [vlaaad/reveal "1.3.282"]
 
-     [nrepl "1.1.1"]
+     [nrepl "1.1.2"]
 
      [eftest "0.6.0"]]}
 
